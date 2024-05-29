@@ -1,4 +1,4 @@
-## Installtion 
+## Installation 
 ```
 git clone https://github.com/kamakirito/ubuntu_server_utilization.git
 cd ubuntu_server_utilization
@@ -18,11 +18,14 @@ pip install -r requirements.txt
 ```
 chmod +x python-montering.py
 cron -l
+```
 # if notthing shows up 
+```
 cron -e
+```
 #Keep these things handy
-# * full path of python3
-# * full path of python-montering.py file
+ * full path of python3
+ * full path of python-montering.py file
 
 ```
 # You can use these commands to locate the full path of python3

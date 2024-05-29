@@ -25,7 +25,7 @@ cron -l
  * full path of python3
  * full path of python-montering.py file
 
-```
+
 # You can use these commands to locate the full path of python3
 
 ```

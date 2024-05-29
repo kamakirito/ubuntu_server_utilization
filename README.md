@@ -37,6 +37,12 @@ cron -e
 ```
 #Add this in the crontab file 
 ```
-*/10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py>
+*/10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py
 ```
 save the file and keep and eye on discord message.
+
+#To keep logs of this script 
+
+```
+*/10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py >> /var/log/monitor/python.log 2>&1
+```

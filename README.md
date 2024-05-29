@@ -12,9 +12,8 @@ pip install -r requirements.txt
 * Copy the webhook url
 * Paste in the Discord_URL in python-montering.py file
 
-#To run this in every X mintues.. 
 
-#make sure you are ubuntu_server_utilization directory 
+# Make sure you are ubuntu_server_utilization directory 
 ```
 chmod +x python-montering.py
 cron -l
@@ -32,16 +31,19 @@ cron -l
 which python3
 realpath python-montering.py
 ```
+# To run this in every X mintues.. 
+
 ```
 cron -e
 ```
-#Add this in the crontab file 
+
+# Add this in the crontab file 
 ```
 */10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py
 ```
 save the file and keep and eye on discord message.
 
-#To keep logs of this script 
+# To keep logs of this script 
 
 ```
 */10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py >> /var/log/monitor/python.log 2>&1

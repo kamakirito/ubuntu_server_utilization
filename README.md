@@ -20,9 +20,7 @@ chmod +x python-montering.py
 cron -l
 ```
 # if notthing shows up 
-```
-cron -e
-```
+
 #Keep these things handy
  * full path of python3
  * full path of python-montering.py file
@@ -34,7 +32,11 @@ cron -e
 which python3
 realpath python-montering.py
 ```
-
-#Add this in the file 
-
+```
+cron -e
+```
+#Add this in the crontab file 
+```
 */10 * * * * <full_path_of_python/python3> <full_path_of_python_script/python-montering.py>
+```
+save the file and keep and eye on discord message.

@@ -16,7 +16,7 @@ pip install -r requirements.txt
 # Make sure you are ubuntu_server_utilization directory 
 ```
 chmod +x python-montering.py
-cron -l
+cronpath -l
 ```
 # if notthing shows up 
 
@@ -34,7 +34,7 @@ realpath python-montering.py
 # To run this in every X mintues.. 
 
 ```
-cron -e
+cronpath -e
 ```
 
 # Add this in the crontab file 

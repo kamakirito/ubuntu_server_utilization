@@ -25,7 +25,7 @@ crontab -l
  * full path of python-montering.py file
 
 
-# You can use these commands to locate the full path of python3
+# You can use these commands to locate the full path of python3. Run these as non-sudo user
 
 ```
 which python3

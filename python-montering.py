@@ -27,7 +27,7 @@ def check_system():
         message = f"High resource usage detected:\nCPU: {cpu_usage}%\nDisk: {disk_usage}%\nGPU: {gpu_usage}%"
         send_discord_alert(message)
     else:
-        send_discord_alert("Keep Claim Sever is running.")
+        echo "Keep Claim Sever is running."
 
 # Example usage
 check_system()
